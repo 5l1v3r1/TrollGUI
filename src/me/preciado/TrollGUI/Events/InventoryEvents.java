@@ -1,5 +1,6 @@
 package me.preciado.TrollGUI.Events;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.Player;
@@ -36,8 +37,10 @@ public class InventoryEvents implements Listener {
             switch(opt) {
                 case "Bolt":
                     new Bolt(playerName);
+                    break;
                 case "TNT":
                     new TNT(playerName);
+                    break;
                 default:
                     break;
             }
