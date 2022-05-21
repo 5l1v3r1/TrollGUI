@@ -1,0 +1,8 @@
+name: TrollGUI
+version: 0.4
+author: Preciado
+main: me.preciado.TrollGUI.Main
+commands:
+  troll:
+    description: Troll users with this command
+    usage: /<command>
